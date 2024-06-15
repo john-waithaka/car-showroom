@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+//This file will render the main layout of the application and potentially other components.
+//gemini
+
+import React from 'react';
+import CarList from './CarList';
+import Navbar from './Navbar'; // Import Navbar if using
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar /> {/* Add navbar if using */}
+      <CarList />
     </div>
   );
 }

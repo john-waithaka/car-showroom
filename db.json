@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2023,
+      "price": 35000
+    },
+    {
+      "id": 2,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "price": 28000
+    },
+    
+    {
+        "id": 3,
+        "make": "Ford",
+        "model": "Raptor",
+        "year": 2023,
+        "price": 55000
+      },
+      {
+        "id": 4,
+        "make": "Toyota",
+        "model": "Hilux",
+        "year": 2023,
+        "price": 65000
+      },
+      {
+        "id": 1,
+        "make": "Nissan",
+        "model": "Navara",
+        "year": 2023,
+        "price": 45000
+      }
+  ]
+  
